@@ -1,0 +1,13 @@
+[
+  {
+    "capabilities": [
+      "coordination",
+      "sasrec",
+      "evaluation",
+      "report"
+    ],
+    "joined_at": "2026-05-26T07:57:12.697987Z",
+    "name": "leader",
+    "role": "leader"
+  }
+]

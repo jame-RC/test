@@ -1,0 +1,21 @@
+{
+  "brief": "推荐系统大作业：在 Amazon Reviews 2023 三个类别（Industrial_and_Scientific / Musical_Instruments / CDs_and_Vinyl，5-Core）上做 Top-K 物品推荐。数据按用户序列以 N-2/N-1/N 划分为 train/val/test，评测指标 NDCG@10。技术路线以 SASRec 为主，工作流：数据预处理 → SASRec 训练 → 三类别评测 → 实验报告。截止 2026-05-28（剩 2 天），交付物：源代码 + 结果文件 + 实验报告（含成员信息）。",
+  "created_at": "2026-05-26T07:57:12.698015Z",
+  "deadline": "2026-05-28T00:00:00",
+  "members": [
+    {
+      "capabilities": [
+        "coordination",
+        "sasrec",
+        "evaluation",
+        "report"
+      ],
+      "joined_at": "2026-05-26T07:57:12.697987Z",
+      "name": "leader",
+      "role": "leader"
+    }
+  ],
+  "repo_url": "https://github.com/jame-RC/test.git",
+  "schema_version": 1,
+  "title": "RecSys-Amazon2023-SASRec"
+}
