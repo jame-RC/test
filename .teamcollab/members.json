@@ -9,5 +9,11 @@
     "joined_at": "2026-05-26T07:57:12.697987Z",
     "name": "leader",
     "role": "leader"
+  },
+  {
+    "capabilities": [],
+    "joined_at": "2026-05-26T08:03:30.555202Z",
+    "name": "老詹",
+    "role": "member"
   }
 ]
