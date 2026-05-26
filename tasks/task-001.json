@@ -1,0 +1,22 @@
+{
+  "brief": "下载 Amazon Reviews 2023 的 Industrial_and_Scientific / Musical_Instruments / CDs_and_Vinyl 三个类别的 5-Core 数据。按 user_id 聚合交互序列，按时间戳排序后做 leave-one-out 划分：前 N-2 个交互为 train，第 N-1 个为 val，第 N 个为 test。输出统一格式（user_id, item_id, timestamp）的 train/val/test 文件，并生成物品/用户 ID 映射表。",
+  "claimed_at": null,
+  "created_at": "2026-05-26T00:00:00Z",
+  "deps": [],
+  "output_schema": {
+    "files": [
+      "data/<category>/train.tsv",
+      "data/<category>/val.tsv",
+      "data/<category>/test.tsv",
+      "data/<category>/item2id.json",
+      "data/<category>/user2id.json"
+    ],
+    "stats": "每类 #users / #items / #interactions / 平均序列长度"
+  },
+  "owner": null,
+  "schema_version": 1,
+  "status": "pending",
+  "submitted_at": null,
+  "task_id": "task-001",
+  "title": "数据预处理：下载 Amazon Reviews 2023 三类别 5-Core 并按 N-2/N-1/N 划分"
+}

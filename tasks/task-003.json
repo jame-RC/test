@@ -1,0 +1,18 @@
+{
+  "brief": "加载训练好的三个 checkpoint，在各自类别的 test 集上对每个用户的最后一个交互做 Top-10 排序，计算 NDCG@10。输出每类的评测结果与汇总表。负样本采样策略（全量 / 100 个负样本）需统一并说明。",
+  "claimed_at": null,
+  "created_at": "2026-05-26T00:00:00Z",
+  "deps": [
+    "task-002"
+  ],
+  "output_schema": {
+    "per_user_scores": "results/<category>_per_user.csv（可选）",
+    "results": "results/ndcg10_summary.csv"
+  },
+  "owner": null,
+  "schema_version": 1,
+  "status": "pending",
+  "submitted_at": null,
+  "task_id": "task-003",
+  "title": "三类别评测：在 test 集上计算 NDCG@10"
+}

@@ -1,0 +1,18 @@
+{
+  "brief": "整理交付物：源代码（含 README 说明运行步骤）+ 结果文件（NDCG@10 csv）+ 实验报告。打包为提交压缩包，确认所有成员信息无误。",
+  "claimed_at": null,
+  "created_at": "2026-05-26T00:00:00Z",
+  "deps": [
+    "task-003",
+    "task-004"
+  ],
+  "output_schema": {
+    "submission": "submission.zip"
+  },
+  "owner": null,
+  "schema_version": 1,
+  "status": "pending",
+  "submitted_at": null,
+  "task_id": "task-005",
+  "title": "结果文件整理与最终提交打包"
+}

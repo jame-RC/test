@@ -1,0 +1,21 @@
+{
+  "brief": "采用 SASRec（Self-Attentive Sequential Recommendation）模型。可基于现有开源实现（如 RecBole 或官方 PyTorch 版）适配。在三个类别上分别训练，记录超参（max_len、d_model、heads、layers、lr、batch_size、epochs），保存 checkpoint。",
+  "claimed_at": null,
+  "created_at": "2026-05-26T00:00:00Z",
+  "deps": [
+    "task-001"
+  ],
+  "output_schema": {
+    "checkpoints": [
+      "models/sasrec_<category>.pt"
+    ],
+    "hyperparams": "config 文件",
+    "training_log": "每类的 loss / val NDCG@10 曲线"
+  },
+  "owner": null,
+  "schema_version": 1,
+  "status": "pending",
+  "submitted_at": null,
+  "task_id": "task-002",
+  "title": "SASRec 实现/适配并在三类别上训练"
+}

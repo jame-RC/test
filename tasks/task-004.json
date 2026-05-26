@@ -1,0 +1,17 @@
+{
+  "brief": "撰写实验报告，包含：成员信息与分工、任务背景、数据集与预处理说明、SASRec 方法介绍、超参设置、三类别 NDCG@10 结果与对比、消融或讨论（如序列长度影响）、结论。PDF 或 Markdown 格式。",
+  "claimed_at": null,
+  "created_at": "2026-05-26T00:00:00Z",
+  "deps": [
+    "task-003"
+  ],
+  "output_schema": {
+    "report": "report/final_report.pdf 或 report/final_report.md"
+  },
+  "owner": null,
+  "schema_version": 1,
+  "status": "pending",
+  "submitted_at": null,
+  "task_id": "task-004",
+  "title": "实验报告撰写"
+}
